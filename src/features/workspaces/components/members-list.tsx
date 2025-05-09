@@ -19,7 +19,7 @@ import { useConfirm } from '@/hooks/use-confirm';
 
 export const MembersList = () => {
   const workspaceId = useWorkspaceId();
-  const [ConfirmDialog, confirm] = useConfirm('Remove member', 'This member will be removed from this workspace.', 'destructive');
+  const [ConfirmDialog, confirm] = useConfirm('Remove member', 'This member will be removed from this Manufacturing Plants.', 'destructive');
 
   const { data: members } = useGetMembers({ workspaceId });
   const { mutate: deleteMember, isPending: isDeletingMember } = useDeleteMember();

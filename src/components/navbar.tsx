@@ -9,18 +9,18 @@ import { SourceCode } from './source-code';
 
 const pathnameMap = {
   tasks: {
-    title: 'My Tasks',
-    description: 'View all of your tasks here.',
+    title: 'My Process',
+    description: 'View all of your Process here.',
   },
   projects: {
-    title: 'My Project',
-    description: 'View tasks of your project here.',
+    title: 'My Stages',
+    description: 'View Stages of your Stages here.',
   },
 };
 
 const defaultMap = {
   title: 'Home',
-  description: 'Monitor all of your projects and tasks here.',
+  description: 'Monitor all of your Stages and Process here.',
 };
 
 export const Navbar = () => {

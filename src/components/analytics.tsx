@@ -27,7 +27,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
       <div className="flex w-full flex-row">
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Total tasks"
+            title="Total Product Batch"
             value={data.taskCount}
             variant={data.taskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.taskDifference}
@@ -38,7 +38,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
 
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Assigned tasks"
+            title="In Quality Check"
             value={data.assignedTaskCount}
             variant={data.assignedTaskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.assignedTaskDifference}
@@ -49,7 +49,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
 
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Completed tasks"
+            title="Completed"
             value={data.completedTaskCount}
             variant={data.completedTaskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.completedTaskDifference}
@@ -60,7 +60,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
 
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Overdue tasks"
+            title="Due"
             value={data.overdueTaskCount}
             variant={data.overdueTaskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.overdueTaskDifference}
@@ -71,7 +71,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
 
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Incomplete tasks"
+            title="Issue Found"
             value={data.incompleteTaskCount}
             variant={data.incompleteTaskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.incompleteTaskDifference}

@@ -100,7 +100,7 @@ jira-clone/
         |--- session-middleware.ts
         |--- utils.ts
   |- .env.example
-  |- .env.local
+  |- .env
   |- .eslintrc.json
   |- .gitignore
   |- .prettierrc.json
@@ -122,8 +122,8 @@ jira-clone/
 
 1. Make sure **Git** and **NodeJS** is installed.
 2. Clone this repository to your local computer.
-3. Create `.env.local` file in **root** directory.
-4. Contents of `.env.local`:
+3. Create `.env` file in **root** directory.
+4. Contents of `.env`:
 
 ```env
 # disable next.js telemetry
@@ -162,7 +162,7 @@ Set the `NEXT_PUBLIC_APP_BASE_URL` to `http://localhost:3000` where your app wil
    - Go to **Dashboard** > **Create Project**.
 3. Retrieve your **Appwrite Endpoint** and **Project ID**:
    - Navigate to **Settings** > **Overview** > **API Credentials**.
-   - Copy the **Endpoint** and **Project ID**, and save them in `.env.local` as `NEXT_PUBLIC_APPWRITE_ENDPOINT` and `NEXT_PUBLIC_APPWRITE_PROJECT`.
+   - Copy the **Endpoint** and **Project ID**, and save them in `.env` as `NEXT_PUBLIC_APPWRITE_ENDPOINT` and `NEXT_PUBLIC_APPWRITE_PROJECT`.
 
 ---
 
@@ -176,7 +176,7 @@ Set the `NEXT_PUBLIC_APP_BASE_URL` to `http://localhost:3000` where your app wil
      - `auth`
      - `session.write`
      - `users.read`.
-3. Copy the generated API key and save it in `.env.local` as `NEXT_APPWRITE_KEY`.
+3. Copy the generated API key and save it in `.env` as `NEXT_APPWRITE_KEY`.
 
 ---
 
@@ -186,7 +186,7 @@ Set the `NEXT_PUBLIC_APP_BASE_URL` to `http://localhost:3000` where your app wil
 
 1. Go to the **Databases** tab.
 2. Create a new database named `jira-clone`.
-3. Copy the **Database ID** (displayed near the database name) and save it in `.env.local` as `NEXT_PUBLIC_APPWRITE_DATABASE_ID`.
+3. Copy the **Database ID** (displayed near the database name) and save it in `.env` as `NEXT_PUBLIC_APPWRITE_DATABASE_ID`.
 
 ---
 
@@ -235,7 +235,7 @@ For each collection:
 1. Navigate to **Settings** > **Permissions**.
 2. Add the role **All Users** with **Create**, **Read**, **Update**, and **Delete** permissions and click Update.
 
-3. Copy the **Collection IDs** (displayed near collection names) for each collection and save them in `.env.local` as `NEXT_PUBLIC_APPWRITE_MEMBERS_ID`, `NEXT_PUBLIC_APPWRITE_PROJECTS_ID`, `NEXT_PUBLIC_APPWRITE_TASKS_ID`, and `NEXT_PUBLIC_APPWRITE_WORKSPACES_ID`.
+3. Copy the **Collection IDs** (displayed near collection names) for each collection and save them in `.env` as `NEXT_PUBLIC_APPWRITE_MEMBERS_ID`, `NEXT_PUBLIC_APPWRITE_PROJECTS_ID`, `NEXT_PUBLIC_APPWRITE_TASKS_ID`, and `NEXT_PUBLIC_APPWRITE_WORKSPACES_ID`.
 
 ---
 
@@ -260,7 +260,7 @@ For each collection:
    - **Maximum File Size**: Set to **1 MB**.
    - **Allowed File Extensions**: Add `jpg`, `png`, and `jpeg`.
    - Save the settings.
-4. Copy the **Bucket ID** (displayed near the bucket name) and save it in `.env.local` as `NEXT_PUBLIC_APPWRITE_IMAGES_BUCKET_ID`.
+4. Copy the **Bucket ID** (displayed near the bucket name) and save it in `` as `NEXT_PUBLIC_APPWRITE_IMAGES_BUCKET_ID`.
 
 ---
 

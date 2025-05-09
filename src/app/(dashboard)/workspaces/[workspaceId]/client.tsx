@@ -119,7 +119,7 @@ export const ProjectList = ({ data, total }: ProjectListProps) => {
     <div className="col-span-1 flex flex-col gap-y-4">
       <div className="rounded-lg border bg-white p-4">
         <div className="flex items-center justify-between">
-          <p className="text-lg font-semibold">Projects ({total})</p>
+          <p className="text-lg font-semibold">Stages ({total})</p>
 
           <Button title="Create Project" variant="secondary" size="icon" onClick={createProject}>
             <PlusIcon className="size-4 text-neutral-400" />
@@ -142,7 +142,7 @@ export const ProjectList = ({ data, total }: ProjectListProps) => {
             </li>
           ))}
 
-          <li className="hidden text-center text-sm text-muted-foreground first-of-type:block">No projects found.</li>
+          <li className="hidden text-center text-sm text-muted-foreground first-of-type:block">No Stages found.</li>
         </ul>
       </div>
     </div>

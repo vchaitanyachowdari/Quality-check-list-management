@@ -61,15 +61,15 @@ export const TaskViewSwitcher = ({ projectId, hideProjectFilter }: TaskViewSwitc
         <div className="flex flex-col items-center justify-between gap-y-2 lg:flex-row">
           <TabsList className="w-full lg:w-auto">
             <TabsTrigger className="h-8 w-full lg:w-auto" value="table">
-              Table
+            Checklist View / Batch List
             </TabsTrigger>
 
             <TabsTrigger className="h-8 w-full lg:w-auto" value="kanban">
-              Kanban
+            Stage Board / Production Flow
             </TabsTrigger>
 
             <TabsTrigger className="h-8 w-full lg:w-auto" value="calendar">
-              Calendar
+            Inspection Schedule / Batch Calendar / Production Calendar
             </TabsTrigger>
           </TabsList>
 
