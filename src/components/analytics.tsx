@@ -49,7 +49,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
 
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Completed"
+            title="Passed / Approvedd"
             value={data.completedTaskCount}
             variant={data.completedTaskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.completedTaskDifference}
@@ -60,7 +60,7 @@ export const Analytics = ({ data }: ProjectAnalyticsResponseType) => {
 
         <div className="flex flex-1 items-center">
           <AnalyticsCard
-            title="Due"
+            title="Pending"
             value={data.overdueTaskCount}
             variant={data.overdueTaskDifference > 0 ? 'up' : 'down'}
             increaseValue={data.overdueTaskDifference}

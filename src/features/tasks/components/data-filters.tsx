@@ -52,19 +52,19 @@ export const DataFilters = ({ hideProjectFilter }: DataFiltersProps) => {
         <SelectTrigger className="h-8 w-full lg:w-auto">
           <div className="flex items-center pr-2">
             <ListChecks className="mr-2 size-4" />
-            <SelectValue placeholder="All statuses" />
+            <SelectValue placeholder="All Product Batches" />
           </div>
         </SelectTrigger>
 
         <SelectContent>
-          <SelectItem value="all">All statuses</SelectItem>
+          <SelectItem value="all">All Product Batches</SelectItem>
           <SelectSeparator />
 
-          <SelectItem value={TaskStatus.BACKLOG}>Backlog</SelectItem>
-          <SelectItem value={TaskStatus.IN_PROGRESS}>In Progress</SelectItem>
-          <SelectItem value={TaskStatus.IN_REVIEW}>In Review</SelectItem>
-          <SelectItem value={TaskStatus.TODO}>Todo</SelectItem>
-          <SelectItem value={TaskStatus.DONE}>Done</SelectItem>
+          <SelectItem value={TaskStatus.BACKLOG}>Pending Inspection</SelectItem>
+          <SelectItem value={TaskStatus.IN_PROGRESS}>Inspection in Progress</SelectItem>
+          <SelectItem value={TaskStatus.IN_REVIEW}>Under Review</SelectItem>
+          <SelectItem value={TaskStatus.TODO}>Ready for Inspection</SelectItem>
+          <SelectItem value={TaskStatus.DONE}>Passed / Approved</SelectItem>
         </SelectContent>
       </Select>
 
@@ -93,12 +93,12 @@ export const DataFilters = ({ hideProjectFilter }: DataFiltersProps) => {
           <SelectTrigger className="h-8 w-full lg:w-auto">
             <div className="flex items-center pr-2">
               <Folder className="mr-2 size-4" />
-              <SelectValue placeholder="All projects" />
+              <SelectValue placeholder="All Product Batches" />
             </div>
           </SelectTrigger>
 
           <SelectContent>
-            <SelectItem value="all">All projects</SelectItem>
+            <SelectItem value="all">All Product Batchess</SelectItem>
             <SelectSeparator />
 
             {projectOptions?.map((project) => (
