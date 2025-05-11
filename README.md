@@ -301,13 +301,18 @@ For each collection:
 
 ## :camera: Screenshots
 
-![Modern UI/UX](/.github/images/img1.png 'Modern UI/UX')
+<img width="1470" alt="Screenshot 2025-05-10 at 9 50 31 AM" src="https://github.com/user-attachments/assets/0de04723-c184-44cb-a3aa-448a550ef673" />
 
-![Tasks Kanban View](/.github/images/img2.png 'Tasks Kanban View')
+<img width="1470" alt="Screenshot 2025-05-10 at 9 45 00 AM" src="https://github.com/user-attachments/assets/b7cc4e6b-98a7-4841-8be8-4f038c877167" />
 
-![Tasks Calendar View](/.github/images/img3.png 'Tasks Calendar View')
+<img width="1470" alt="Screenshot 2025-05-10 at 9 44 46 AM" src="https://github.com/user-attachments/assets/2fc6f176-15b0-4d6b-aae0-4554cd5725f3" />
 
-![Responsive Modals](/.github/images/img4.png 'Responsive Modals')
+<img width="1470" alt="Screenshot 2025-05-10 at 9 45 33 AM" src="https://github.com/user-attachments/assets/914cf286-531c-469d-861d-07338551cff1" />
+
+<img width="1470" alt="Screenshot 2025-05-10 at 10 04 54 AM" src="https://github.com/user-attachments/assets/3ca798ce-819d-4f7f-ad1a-91f940aefe73" />
+
+<img width="1470" alt="Screenshot-2025-05-10-at-10 05 42-AM" src="https://github.com/user-attachments/assets/51176dc8-8fe6-4ef4-8476-835e8406b7ce" />
+
 
 ## :gear: Tech Stack
 
