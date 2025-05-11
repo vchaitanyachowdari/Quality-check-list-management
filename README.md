@@ -2,16 +2,16 @@
 
 # Full-stack Jira Clone using Next.js 14 and Appwrite
 
-![Full-stack Jira Clone using Next.js 14 and Appwrite](/.github/images/img_main.png 'Full-stack Jira Clone using Next.js 14 and Appwrite')
+<img width="1470" alt="Screenshot 2025-05-10 at 9 44 21 AM" src="https://github.com/user-attachments/assets/da8eee68-8df8-442a-8f0a-b238284a7344" />
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy 'Ask Me Anything!')
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/jira-clone/blob/main/LICENSE 'GitHub license')
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/jira-clone/commits/main 'Maintenance')
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/jira-clone/branches 'GitHub branches')
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/jira-clone/commits 'Github commits')
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/jira-clone/issues 'GitHub issues')
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/jira-clone/pulls 'GitHub pull requests')
-[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://clone-jira.vercel.app 'Vercel status')
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari 'Ask Me Anything!')
+[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari/Quality-check-list-management/blob/main/LICENSE 'GitHub license')
+[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari/Quality-check-list-management/commits/main 'Maintenance')
+[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari/Quality-check-list-management/branches 'GitHub branches')
+[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari/Quality-check-list-management/commits 'Github commits')
+[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari/Quality-check-list-management/issues 'GitHub issues')
+[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/jira-clone?icon=github&color=black&scale=1.01)](https://github.com/vchaitanyachowdari/Quality-check-list-management/pulls 'GitHub pull requests')
+[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vchaitanyachowdari.vercel.app 'Vercel status')
 
 <!-- Table of Contents -->
 <details>
